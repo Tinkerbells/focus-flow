@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Camera } from 'lucide-react';
+import { Icon24Cancel } from '@vkontakte/icons';
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <Camera color="white" size={48} />;
+        <Icon24Cancel />
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>

@@ -1,8 +1,9 @@
 :root {
+
+  /* Put your css varibales here */
   /*  CSS VARIABLES */
   --blue: #c8e9ff;
   --blue-light: #ebf7fc;
-  /* Colorscheme */
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
