@@ -16,7 +16,7 @@
   width: 100%;
   height: 500px;
   border-radius: 3%;
-
+  padding: 20px;
   color: black;
 }
 
@@ -29,4 +29,39 @@
 }
 .table.green {
   background-color: var(--green-light);
+}
+
+.table__header {
+  display: flex;
+  gap: 5px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: solid 1px;
+  border: none;
+  width: 100px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.title.do {
+  background-color: var(--grey);
+}
+
+.table__counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+
+.table__counter.grey {
+  background-color: var(--grey);
 }
